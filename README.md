@@ -1,8 +1,8 @@
-# travis_qmake_gcc_cpp98_qt_qtest
+# travis_qmake_gcc_cpp98_qt_qtests
 
 [![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 
-[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98_qt_qtest.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98_qt_qtest)
+[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98_qt_qtests.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98_qt_qtests)
 
 This GitHub is part of [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial).
 
@@ -13,12 +13,8 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Libraries: `STL` and `Qt`
  * Code coverage: none
  * GUI testing: QTest
- * Source: QDialog with Qt resource file
-
-More complex builds:
- * More tests: [travis_qmake_gcc_cpp98_qt_qtests](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qt_qtests)
- * C++11: [travis_qmake_gcc_cpp11_qt_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt_qtest)
- * C++14: [travis_qmake_gcc_cpp14_qt_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qt_qtest)
+ * Source: Multiple QDialog with Qt resource file
 
 Less complex builds:
- * Qt only: [travis_qmake_gcc_cpp98_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qt)
+ * One test: [travis_qmake_gcc_cpp98_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qtest)
+ 
