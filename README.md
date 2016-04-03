@@ -15,6 +15,11 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * GUI testing: QTest
  * Source: Multiple QDialog with Qt resource file
 
+More complex builds:
+ * C++11: [travis_qmake_gcc_cpp11_qt_qtests](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qtests)
+ * C++14: [travis_qmake_gcc_cpp14_qt_qtests](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qtests)
+
 Less complex builds:
- * One test: [travis_qmake_gcc_cpp98_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qtest)
+ * One test: [travis_qmake_gcc_cpp98_qt_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qtest)
  
+![Screenshot](travis_qmake_gcc_cpp98_qt_qtests.png)
