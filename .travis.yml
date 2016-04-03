@@ -1,5 +1,6 @@
 language: cpp
 compiler: gcc
+sudo: required
 
 # Start virtual X server
 before_script:
