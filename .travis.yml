@@ -12,3 +12,5 @@ script:
  - ./build_test.sh
  - ./travis_qmake_gcc_cpp98_qt_qtests_test
  - ./build_normal.sh
+
+ 
