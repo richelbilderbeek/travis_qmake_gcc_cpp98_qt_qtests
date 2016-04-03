@@ -11,3 +11,8 @@ my_dialog1::my_dialog1(QWidget *parent) :
 my_dialog1::~my_dialog1() {
   delete ui;
 }
+
+bool my_dialog1::is_correct_pin() const
+{
+  return ui->spinBox->value() == 1234;
+}

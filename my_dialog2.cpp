@@ -11,3 +11,8 @@ my_dialog2::my_dialog2(QWidget *parent) :
 my_dialog2::~my_dialog2() {
   delete ui;
 }
+
+bool my_dialog2::is_correct_password() const
+{
+  return ui->lineEdit->text() == "iloverichel";
+}

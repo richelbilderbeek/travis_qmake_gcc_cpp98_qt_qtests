@@ -6,9 +6,10 @@
 int main(int argc, char *argv[])
 {
   QApplication a(argc, argv);
+  int error = 0;
   my_dialog1_test t1;
-  QTest::qExec(&t1, argc, argv);
+  error |= QTest::qExec(&t1, argc, argv);
   my_dialog2_test t2;
-  QTest::qExec(&t2, argc, argv);
-  return a.exec();
+  error |= QTest::qExec(&t2, argc, argv);
+  return error;
 }
