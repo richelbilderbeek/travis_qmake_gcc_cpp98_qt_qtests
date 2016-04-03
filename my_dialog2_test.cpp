@@ -1,12 +1,12 @@
-#include "my_dialog_test.h"
-#include "my_dialog.h"
+#include "my_dialog2_test.h"
+#include "my_dialog2.h"
+#include "ui_my_dialog2.h"
 
-void my_dialog_test::close_with_x()
+void my_dialog2_test::responds_to_right_password() const
 {
-  my_dialog d;
+  my_dialog2 d;
   d.show();
   QVERIFY(d.isVisible());
-  QTest::keyClick(&d,Qt::Key_X,Qt::NoModifier, 100);
   QVERIFY(d.isHidden());
 }
 
